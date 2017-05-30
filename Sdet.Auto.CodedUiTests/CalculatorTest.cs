@@ -8,9 +8,6 @@ namespace Sdet.Auto.CodedUiTests
     [CodedUITest(CodedUITestType.WindowsStore)]
     public class CalculatorTest : TestBaseClass
     {
-        public CalculatorTest()
-        {
-        }
 
         [TestMethod]
         public void Calc_TC0001_Smoketest()
