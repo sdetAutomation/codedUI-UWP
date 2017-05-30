@@ -1,11 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UITesting;
+using Microsoft.VisualStudio.TestTools.UITesting.WindowsRuntimeControls;
 using Sdet.Auto.TestHelper;
 
 namespace Sdet.Auto.AUTLayer
 {
-    public class CalculatorWindow : UITestControl
+    public class CalculatorWindow_Toolbar : UITestControl
     {
-        public CalculatorWindow()
+        public CalculatorWindow_Toolbar()
         {
             this.TechnologyName = "UIA";
             this.SearchProperties[UITestControl.PropertyNames.Name] = "Calculator";
@@ -13,7 +14,7 @@ namespace Sdet.Auto.AUTLayer
 
         public void VerifyWindowExist(TestAssert testAssert)
         {
-            IoLibrary.WriteLine("Verifying Calculator Window Exists.");
+            IoLibrary.WriteLine("Verifying Calculator Window Toolbar Exists.");
             testAssert.Pass = LoggingLibrary.CompareResult(this.Exists, true);
         }
 
@@ -34,6 +35,7 @@ namespace Sdet.Auto.AUTLayer
         }
         private UITestControl mBtnClose;
 
+ 
         #endregion
 
     }
