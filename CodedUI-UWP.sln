@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdet.Auto.AUTLayer", "Sdet.Auto.AUTLayer\Sdet.Auto.AUTLayer.csproj", "{7D4147EF-D5E1-4A93-A3DB-92CB459802C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdet.Auto.CodedUiTests", "Sdet.Auto.CodedUiTests\Sdet.Auto.CodedUiTests.csproj", "{5F8B7B74-EBC3-4895-B105-451940D0ABFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdet.Auto.TestHelper", "Sdet.Auto.TestHelper\Sdet.Auto.TestHelper.csproj", "{165FDE3C-EB2C-46A8-8EDA-1412010E31BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E878FC8-DE2D-4F5D-8AD8-57E0D5C1B483}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D4147EF-D5E1-4A93-A3DB-92CB459802C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4147EF-D5E1-4A93-A3DB-92CB459802C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4147EF-D5E1-4A93-A3DB-92CB459802C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4147EF-D5E1-4A93-A3DB-92CB459802C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8B7B74-EBC3-4895-B105-451940D0ABFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8B7B74-EBC3-4895-B105-451940D0ABFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8B7B74-EBC3-4895-B105-451940D0ABFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8B7B74-EBC3-4895-B105-451940D0ABFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165FDE3C-EB2C-46A8-8EDA-1412010E31BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165FDE3C-EB2C-46A8-8EDA-1412010E31BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165FDE3C-EB2C-46A8-8EDA-1412010E31BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165FDE3C-EB2C-46A8-8EDA-1412010E31BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
