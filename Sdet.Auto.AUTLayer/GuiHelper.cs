@@ -3,6 +3,6 @@
     public class GuiHelper
     {
         public CalculatorWindow_Toolbar calculatorWindowToolbar = new CalculatorWindow_Toolbar();
-        public CalculatorWindow_Main calulatorWindowMain = new CalculatorWindow_Main();
+        public CalculatorWindow_Main calculatorWindowMain = new CalculatorWindow_Main();
     }
 }

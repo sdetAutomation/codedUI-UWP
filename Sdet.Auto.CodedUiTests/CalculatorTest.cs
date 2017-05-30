@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Sdet.Auto.AUTLayer;
-using System.Threading;
 
 namespace Sdet.Auto.CodedUiTests
 {
@@ -15,7 +14,7 @@ namespace Sdet.Auto.CodedUiTests
         {
             GuiService.LaunchCalculator();
             GuiHelper.calculatorWindowToolbar.VerifyWindowExist(TestAssert);
-            GuiHelper.calulatorWindowMain.VerifyWindowExist(TestAssert);
+            GuiHelper.calculatorWindowMain.VerifyWindowExist(TestAssert);
             GuiHelper.calculatorWindowToolbar.CloseWindow();
         }
 
@@ -25,11 +24,11 @@ namespace Sdet.Auto.CodedUiTests
             const string baseline = "Display is 4";
 
             GuiService.LaunchCalculator();
-            GuiHelper.calulatorWindowMain.ClickOne();
-            GuiHelper.calulatorWindowMain.ClickPlus();
-            GuiHelper.calulatorWindowMain.ClickThree();
-            GuiHelper.calulatorWindowMain.ClickEquals();
-            GuiHelper.calulatorWindowMain.VerifyResults(TestAssert, baseline);
+            GuiHelper.calculatorWindowMain.ClickOne();
+            GuiHelper.calculatorWindowMain.ClickPlus();
+            GuiHelper.calculatorWindowMain.ClickThree();
+            GuiHelper.calculatorWindowMain.ClickEquals();
+            GuiHelper.calculatorWindowMain.VerifyResults(TestAssert, baseline);
             GuiHelper.calculatorWindowToolbar.CloseWindow();
         }
 
@@ -39,11 +38,11 @@ namespace Sdet.Auto.CodedUiTests
             const string baseline = "Display is 1";
 
             GuiService.LaunchCalculator();
-            GuiHelper.calulatorWindowMain.ClickTwo();
-            GuiHelper.calulatorWindowMain.ClickMinus();
-            GuiHelper.calulatorWindowMain.ClickOne();
-            GuiHelper.calulatorWindowMain.ClickEquals();
-            GuiHelper.calulatorWindowMain.VerifyResults(TestAssert, baseline);
+            GuiHelper.calculatorWindowMain.ClickTwo();
+            GuiHelper.calculatorWindowMain.ClickMinus();
+            GuiHelper.calculatorWindowMain.ClickOne();
+            GuiHelper.calculatorWindowMain.ClickEquals();
+            GuiHelper.calculatorWindowMain.VerifyResults(TestAssert, baseline);
             GuiHelper.calculatorWindowToolbar.CloseWindow();
         }
 
@@ -53,11 +52,11 @@ namespace Sdet.Auto.CodedUiTests
             const string baseline = "Display is 6";
 
             GuiService.LaunchCalculator();
-            GuiHelper.calulatorWindowMain.ClickTwo();
-            GuiHelper.calulatorWindowMain.ClickMultiply();
-            GuiHelper.calulatorWindowMain.ClickThree();
-            GuiHelper.calulatorWindowMain.ClickEquals();
-            GuiHelper.calulatorWindowMain.VerifyResults(TestAssert, baseline);
+            GuiHelper.calculatorWindowMain.ClickTwo();
+            GuiHelper.calculatorWindowMain.ClickMultiply();
+            GuiHelper.calculatorWindowMain.ClickThree();
+            GuiHelper.calculatorWindowMain.ClickEquals();
+            GuiHelper.calculatorWindowMain.VerifyResults(TestAssert, baseline);
             GuiHelper.calculatorWindowToolbar.CloseWindow();
         }
 
@@ -67,11 +66,11 @@ namespace Sdet.Auto.CodedUiTests
             const string baseline = "Display is 1.5";
 
             GuiService.LaunchCalculator();
-            GuiHelper.calulatorWindowMain.ClickThree();
-            GuiHelper.calulatorWindowMain.ClickDivide();
-            GuiHelper.calulatorWindowMain.ClickTwo();
-            GuiHelper.calulatorWindowMain.ClickEquals();
-            GuiHelper.calulatorWindowMain.VerifyResults(TestAssert, baseline);
+            GuiHelper.calculatorWindowMain.ClickThree();
+            GuiHelper.calculatorWindowMain.ClickDivide();
+            GuiHelper.calculatorWindowMain.ClickTwo();
+            GuiHelper.calculatorWindowMain.ClickEquals();
+            GuiHelper.calculatorWindowMain.VerifyResults(TestAssert, baseline);
             GuiHelper.calculatorWindowToolbar.CloseWindow();
         }
     }
