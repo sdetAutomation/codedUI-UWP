@@ -28,13 +28,11 @@ namespace Sdet.Auto.TestHelper
             return path;
         }
 
-        public static void KillProcess()
+        public static void KillProcess(String processName)
         {
             var processes = Process.GetProcesses();
 
-
-
-            foreach (var process in Process.GetProcessesByName("ApplicationFrameHost"))
+            foreach (var process in Process.GetProcessesByName(processName))
             {
                 process.Kill();
             }

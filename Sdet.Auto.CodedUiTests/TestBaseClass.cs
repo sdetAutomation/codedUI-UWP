@@ -24,7 +24,8 @@ namespace Sdet.Auto.CodedUiTests
         {
             TestAssert = new TestAssert();
             GuiHelper = new GuiHelper();
-            IoLibrary.KillProcess();
+            const string calcProcess = "ApplicationFrameHost";
+            IoLibrary.KillProcess(calcProcess);
         }
 
         [TestCleanup]
